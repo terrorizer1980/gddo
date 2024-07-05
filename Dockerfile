@@ -1,4 +1,4 @@
-FROM golang:latest
+FROM golang:1.22.5
 
 # Install redis, nginx, daemontools, etc.
 RUN echo deb http://http.debian.net/debian wheezy-backports main > /etc/apt/sources.list.d/backports.list && \
